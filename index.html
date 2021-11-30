@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michel Heffron's Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Heff's ePortfolio</title>
 </head>
+
 <body>
-    
+    <!-- header section -->
+    <header>
+        <h1>
+            <a href="/">ePortfolio</a>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact-info">Contact Info</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- intro section -->
+    <section id="intro">
+        <div>
+            <!-- portrait section -->
+            <div>
+                <img src="./assets/images/SelfPortrait.jpg" alt="Picture of Michael Heffron" />
+            </div>
+            <h2>Hello! Welcome to my ePortfolio</h2>
+            <div>
+            </div>
+            <p>
+                My name is Michael Heffron, though most people call me Heff as there's a few too many Mike's in the
+                world. This is a collection of my projects and module work that I completed for a full stack coding
+                bootcamp. Feel free to browse around and ask me any questions you might have!
+            </p>
+        </div>
+    </section>
+
+    <!-- projects section -->
+    <section id="projects">
+        <div>
+            <h3>Group Projects</h3>
+
+            <!-- weekender -->
+            <div class="projects">
+                <article class="project">
+                    <a href="https://sdillon215.github.io/weekender/">
+                        <img src="./assets/images/Weekender.png" alt="Screenshot of the Weekender Application" />
+                    </a>
+                    <div class="project-info">
+                        <h3 class="project-name">Weekender</h3>
+                        <h4 class="group-role">Javascript, Gmaps API, Autofill Search API</h4>
+                        <p>Weekender is a quick and easy to use application that helps the user find a weekend activity.
+                            Given the users input the weather and locations of the activities will be displayed on the
+                            page.</p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- top5 -->
+            <div class="projects">
+                <article class="project">
+                    <a href="https://goat-meat.herokuapp.com/">
+                        <img src="./assets/images/Top5.jpeg" alt="Screenshot of the Top5 Application" />
+                    </a>
+                    <div class="project-info">
+                        <h3 class="project-name">Top5</h3>
+                        <h4 class="group-role">Javascript, UI, SQL Database</h4>
+                        <p>Top5 is an interactive social voting site to rank your Top5 favorites of whatever you want.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- dataverse -->
+            <div class="projects">
+                <article class="project">
+                    <a href="https://gentle-temple-58806.herokuapp.com/">
+                        <img src="./assets/images/Dataverse.png" alt="Screenshot of the Dataverse Application" />
+                    </a>
+                    <div class="project-info">
+                        <h3 class="project-name">Dataverse</h3>
+                        <h4 class="group-role">Javascript, React UI, MongoDB Design</h4>
+                        <p>Dataverse is a scalable app used for personal to small business inventories.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact-info">
+        <div>
+            <h3>Contact Info</h3>
+            <div class="contact-info">
+                <div>
+                    <p>The best way to contact me is by my phone, but feel free to try email if that's your fancy!</p>
+                    <address>
+                        P: 435-901-0718<br />
+                        E: <a href="mailto:shmikester@gmail.com">shmikester@gmail.com</a>
+                    </address>
+
+                </div>
+            </div>
+    </section>
 </body>
+
 </html>
