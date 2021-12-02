@@ -13,12 +13,12 @@
     <!-- header section -->
     <header>
         <h1>
-            <a href="/">ePortfolio</a>
+            <a href="/">Heff's ePortfolio</a>
         </h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#projects-section">Projects</a>
                 </li>
                 <li>
                     <a href="#contact-info">Contact Info</a>
@@ -28,15 +28,13 @@
     </header>
 
     <!-- intro section -->
-    <section id="intro">
-        <div>
-            <!-- portrait section -->
-            <div>
-                <img src="./assets/images/SelfPortrait.jpg" alt="Picture of Michael Heffron" />
-            </div>
-            <h2>Hello! Welcome to my ePortfolio</h2>
-            <div>
-            </div>
+    <section class="intro">
+        <!-- portrait section -->
+        <div id="intro-portrait">
+            <img src="./assets/images/SelfPortrait.jpg" alt="Picture of Michael Heffron" />
+        </div>
+        <div id="intro-description">
+            <h2>Hello, and welcome to my ePortfolio!</h2>
             <p>
                 My name is Michael Heffron, though most people call me Heff as there's a few too many Mike's in the
                 world. This is a collection of my projects and module work that I completed for a full stack coding
@@ -46,54 +44,52 @@
     </section>
 
     <!-- projects section -->
-    <section id="projects">
-        <div>
-            <h3>Group Projects</h3>
+    <div id="projects-section" class="section-divider">
+        <h2>Group Projects</h2>
+    </div>
 
-            <!-- weekender -->
-            <div class="projects">
+    <section id="projects">
+        <!-- weekender -->
+        <div class="projects">
+            <a href="https://sdillon215.github.io/weekender/">
                 <article class="project">
-                    <a href="https://sdillon215.github.io/weekender/">
-                        <img src="./assets/images/Weekender.png" alt="Screenshot of the Weekender Application" />
-                    </a>
+                    <h3 class="project-name">Weekender</h3>
+                    <img src="./assets/images/Weekender.png" alt="Screenshot of the Weekender Application" />
                     <div class="project-info">
-                        <h3 class="project-name">Weekender</h3>
-                        <h4 class="group-role">Javascript, Gmaps API, Autofill Search API</h4>
-                        <p>Weekender is a quick and easy to use application that helps the user find a weekend activity.
-                            Given the users input the weather and locations of the activities will be displayed on the
-                            page.</p>
+                        <p>An app that helps users find an outdoors weekend activity along with weather forecasts.</p>
+                        <h4 class="group-role">Responsibilities: Javascript, Gmaps API, Autofill Search API</h4>
                     </div>
                 </article>
-            </div>
+            </a>
+        </div>
 
-            <!-- top5 -->
-            <div class="projects">
+        <!-- top5 -->
+        <div class="projects">
+            <a href="https://goat-meat.herokuapp.com/">
                 <article class="project">
-                    <a href="https://goat-meat.herokuapp.com/">
-                        <img src="./assets/images/Top5.jpeg" alt="Screenshot of the Top5 Application" />
-                    </a>
+                    <h3 class="project-name">Top5</h3>
+                    <img src="./assets/images/Top5.jpeg" alt="Screenshot of the Top5 Application" />
                     <div class="project-info">
-                        <h3 class="project-name">Top5</h3>
-                        <h4 class="group-role">Javascript, UI, SQL Database</h4>
                         <p>Top5 is an interactive social voting site to rank your Top5 favorites of whatever you want.
                         </p>
+                        <h4 class="group-role">Responsibilities: Javascript, UI, SQL Database</h4>
                     </div>
                 </article>
-            </div>
+            </a>
+        </div>
 
-            <!-- dataverse -->
-            <div class="projects">
+        <!-- dataverse -->
+        <div class="projects">
+            <a href="https://gentle-temple-58806.herokuapp.com/">
                 <article class="project">
-                    <a href="https://gentle-temple-58806.herokuapp.com/">
-                        <img src="./assets/images/Dataverse.png" alt="Screenshot of the Dataverse Application" />
-                    </a>
+                    <h3 class="project-name">Dataverse</h3>
+                    <img src="./assets/images/Dataverse.png" alt="Screenshot of the Dataverse Application" />
                     <div class="project-info">
-                        <h3 class="project-name">Dataverse</h3>
-                        <h4 class="group-role">Javascript, React UI, MongoDB Design</h4>
                         <p>Dataverse is a scalable app used for personal to small business inventories.</p>
+                        <h4 class="group-role">Responsibilities: Javascript, React UI, MongoDB Design</h4>
                     </div>
                 </article>
-            </div>
+            </a>
         </div>
     </section>
 
